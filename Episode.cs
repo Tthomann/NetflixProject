@@ -9,5 +9,10 @@ namespace Netflix
 //-    Rating field
     public class Episode
     {
+        public int episodeRating;
+        public Episode(int EpisodeRating)
+        {
+            episodeRating = EpisodeRating;
+        }
     }
 }
